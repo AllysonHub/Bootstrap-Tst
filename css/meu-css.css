@@ -1,0 +1,178 @@
+body{
+    background-color: black;
+}
+
+@font-face {
+    font-family: Dugfitti;
+    src: url(../Font/Dugffiti-Regular.ttf);
+}
+
+@font-face {
+    font-family: VCR;
+    src: url(../Font/VCR_OSD_MONO_1.001.ttf)
+}
+
+@font-face {
+    font-family: Most Wasted;
+    src: url(../Font/Mostwasted.ttf)
+}
+
+@font-face {
+    font-family: Grafitti Skater;
+    src: url(../Font/GraffitiSkater-DemoVersion-Regular.otf)
+}
+
+
+main{
+    
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1{ 
+    color: #fff;
+    font-family: fantasy;
+    font-optical-sizing: auto; 
+    font-style: normal;
+    font-size: 3.5em;
+}
+
+p{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5em;
+    padding-top: 1%;
+}
+
+section{
+    padding: 10%;
+}
+
+.perfil{
+    float: right;
+    width: 30%;
+    border-radius: 50%;
+    box-shadow: inset;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+    width: 30%;
+    padding-right: 1%;
+}
+
+.center{
+    text-align: center;
+}
+
+.button{
+    background-color: rgb(0, 146, 190);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    transition: 3s;
+    font-family: VCR,sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.titulo{
+    color: #fff;
+    text-align: center;
+}
+
+.subtitulo{
+    color: #fff;
+    font-size: 1.2em;
+    padding-top: 0.01rem;
+}
+
+.mix{
+
+    border-radius: 10%;
+    width: 40%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.sobre_descrição{
+    color: #fff;
+    font-size: 1.2em;
+    padding-left: 5cm;
+    text-align: justify;
+}
+
+.comp_imagem{
+    border-radius: 10%;
+    width: 30%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;    
+}
+
+.comp_titulo{
+    color: #fff;
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 5%;
+}
+
+.comp_imagem_grid{
+    float: left;
+}
+
+.imagem_menor_grid{
+    width: 5%;
+}
+
+.comp_titulo_grid{
+    color: #fff;
+    font-family: Grafitti Skater,sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 2.5em;
+}
+
+.comp_texto_grid{
+    color: #fff;
+    text-align: left;
+}
+
+
+.cont_subtitulo_center{
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 0.01rem;
+    padding-bottom: 8%;
+}
+
+.cont_imagem{
+    float: left;
+    width: 2%;
+}
+
+.cont_text{
+    color: rgb(255, 255, 255);
+}
+
+.cont_titulo{
+    color: #fff;
+    font-family: VCR,sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    font-size: 2em;
+}
